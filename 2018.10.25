@@ -1,0 +1,9 @@
+今日工作：
+1.上午做了一会儿ppt，看了一篇论文，是在向韩顺顺师兄咨询该怎么看无证书论文后看的“certificateless public key cryptography”还有一篇是是自己瞎找的想
+多了解一下批验证的验证过程找的论文“On batch verification with group testing for vehicular communications”
+2.首先关于“On batch verification with group testing for vehicular communications”，其中的一个点是如果批签名中出现一个无效签名，在验证的过程中
+被识别出，那么接下来的验证将会有很长的时延，特别的对于一个攻击者来说会试图发送少量的无效签名来破坏批验证来阻止Ta追踪它的真实身份，对此文章研究了一个分组检测技术
+，介绍了四个分组检测算法的类型：individual testing, binary search, generalized binary splitting (GBS) , Li’s s-stage ，并进行了分析比较。
+在“certificateless public key cryptography”中，是纯密码学文章，可以讲是从有证书到无证书的的一个过程和比对，文章讲的很细，很多的基础知识点之前是很困惑的
+，但在这篇论文中会有一些收获。
+接下来继续看论文。
