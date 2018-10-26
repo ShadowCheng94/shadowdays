@@ -1,0 +1,12 @@
+今日工作：
+1.做ppt，看“Certificateless Public Key Cryptography”,“An efficient certificateless aggregate signature with conditional
+        privacy-preserving for vehicular sensor networks”这两篇论文。
+2.在无证书公钥加密方案中私钥生成或秘密值生成或其他的算法都会涉及一个实体的标识符，我对它的理解是和车联网中的车辆的假名是一个意思。
+两种攻击类型：
+Type I Adversary：不能使用主密钥，但是可以请求公钥，并用其选择的值替换公钥，提取部分私钥和私钥，并进行解密查询，所有这些查询都是针对其选择的身份进行的。
+Type II Adversary：可以访问主密钥，但不能替换实体的公钥。在给定主密钥的情况下，所有对手都可以为自己计算部分私钥。它还可以请求公钥、
+进行私钥提取查询和解密查询，这两种查询都是针对其选择的身份进行的。
+在Horng等人的方案的安全性证明中的两种类型的攻击A1显示车辆的秘密密钥vskIDi或更改车辆的公共密钥vpkIDi然而，
+不能透露mskKGC的主秘钥，也不能访问车辆的部分私钥pskIDi；A2是扮演着恶意的KGC角色，负责主公钥私钥的生成和任意车辆的部分私钥。
+在随机预言机模型下，有一个create-vehicle预言器，这在之前的没有看到过。现在对安全性证明大致有了一些理解，但是要设计出是不会的。
+我觉得目前需要打好车联网的基础，对方案的细节应该偏重。
