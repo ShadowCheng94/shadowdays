@@ -1,0 +1,6 @@
+今日工作：
+1.上午机器学习。
+2.今天看了一篇“Fully distributed certificateless threshold signature without random oracles”，是Information Sciences的一篇文章，
+篇幅不长，完全分布式无证书阈值签名是无证书(t, n)阈值签名(CLTS)方案允许至少t个成员代表n个成员群作签署消息，可以分担责任和权力。多个分布式KGC负责生成并将实体部分私钥分配给分布式签名者，每个分布式KGCs直接生成并向签名者发送一个实体部分私钥共享。
+论文首先改进了完全分布式CLTS定义，然后改进了它的安全模型。并且在标准模型中证明了第一个完全分布式CLTS方案的安全性。
+虽然篇幅短，但是还得需要好好看看，明天接着看。
