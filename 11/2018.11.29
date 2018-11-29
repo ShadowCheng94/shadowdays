@@ -1,0 +1,11 @@
+今日工作：
+1.上午机器学习老师讲的是大规模网络表示学习，表示学习是对原始数据的一种表示，是原始数据和机器学习的过度。
+2.今日看的论文是“Dan Boneh, Craig Gentry, Ben Lynn, and Hovav Shacham.”Aggregate and Veriﬁably Encrypted Signatures from Bilinear Maps.”
+EUROCRYPT 2003”，这篇论文主要是第一次提出了聚合签名的概念，它首先对其做了一个定义：给定来自n个不同用户的n条不同消息上的n个签名，就有可能将所有这些签名聚合到
+一个短签名中。我不理解这个“可能”是什么意思？这里说是聚合成一个短签名，但是我在哪里也看到说聚合签名的长度是和任何的单个签名的长度是一样的，有点搞不清。
+“D. J. Guan , E. S. Zhuang , I. C. Chung and Yu-Shen Lin.“ Performance Analysis of some Batch Veriﬁcation Methods of Digital 
+Signatures.”2017 12th Asia Joint Conference on Information Security”这是关于批验证的，提到检测无效签名的三种方法：
+①randomly select test
+② the small exponent test（广泛使用，当批处理验证中的签名数量较小时，更好） 
+③ randomly numbering test（矩阵检测的简化，当批处理验证中的签名数量较大时，比小指数检测更有效）
+所以可以这样的理解，我们在使用批验证技术的时候，为了保证无效签名通过批验证，我们是需要使用这样的检测的技术。
