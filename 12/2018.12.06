@@ -1,0 +1,6 @@
+今日工作：
+1.上午上了机器学习的课程；
+2.今日学习的论文“A New Efﬁcient Certiﬁcateless Short Signature Scheme Using Bilinear Pairings ”，是发在2017年IEEE SYSTEMS JOURNAL上的。
+这篇论文的提出的短签名长度仅是一个群元素，没有任何方案可以比它的长度更小，不使用MTP哈希。看它的原因是需要了解短签名，同时无证书短签名方案是适合于低带宽
+通信环境。
+3.修改了一下ppt。
