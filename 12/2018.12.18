@@ -1,0 +1,11 @@
+上周好像自己的确没有干什么，但是也没有玩什么，干了一些七七八八的事，但是时间就那样过去了，然后日志没啥内容可写，写了的也不够详细。
+今日工作：
+1.今天上午把人工智能的ppt完成了；
+2.下午找了两篇文章，努力的想找关于无证书的然后档次高点的论文但是没有找到。第一篇“An Enhanced Secure Identity-Based Certificateless
+Public Key Authentication Scheme for Vehicular Sensor Networks”发表在sensors上的，2018年的，我发现发在sensors上的论文篇幅都比较长。然后我读了
+大概六七页。该论文也是传统的双层模型，它提到了RSU位置的两个应用场景，一个是安装在我们传统的主道路上，另一个是安装在无人值守的环境（高速公路）。第二种场景下
+会造成通信的高代价，给的解决方法是部署带有电池的rsu和缩短无线通信范围，用户可以通过单跳或多跳通信与rsu进行联系。但这不是该论文的重点。它的实体加入了一个
+Anchor nodes，作用是为了防止敌人在网络中插入恶意节点，检测rsu，还提供了一个预警机制。没读完，但是想着把这篇看完。
+第二篇是“Decentralized and Scalable Privacy-Preserving Authentication Scheme in VANETs”，是发表在IEEE TRANSACTIONS ON VEHICULAR 
+TECHNOLOGY上的，2018年的。也是读了部分，系统模型上层是主TA和代理TA，这和之前张磊的那篇论文结构很像，也提到了车辆和rsu的互相认证。目前这两篇论文是我想接下来读的。
+3.晚上开了组会，讲的是2006年基于属性加密的访问控制方案，回来告诉丁龙这篇论文了。
