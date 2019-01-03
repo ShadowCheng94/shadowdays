@@ -1,0 +1,8 @@
+今日工作：
+今天看的论文是“Secure smart health with privacy-aware aggregate authentication and access control in Internet of Things”，是发在Journal of 
+Network and Computer Applications期刊上的。首先这篇论文的背景是引入一个智能健康系统SSH，健康数据的上传和访问的过程中对数据的隐私保护。这个SSH有两个
+构建模块，一个是匿名无证书聚合签名模块，CSP（云服务提供者）采用该签名方案对不同类型的shr（数据或者消息）进行聚合，然后CSP对收集到的数据进行一次验证；
+另一个是匿名CP-ABE方案为了实现细粒度的访问控制，我们将提出的聚合签名方案和基于匿名属性的加密技术结合起来，未经授权的用户无法访问相应的shr（数据）。这个SSH系统将聚合认
+证技术和属性加密做了一个结合，实现了数据的隐私和安全保护问题。
+方案的实体包括：DO（数据拥有者）DU（数据的使用者）csp（云服务提供者）RC注册中心。DO收集数据对数据加密和签名，然后上传到云上存储和分享，DU从云上得到这些
+数据用于实用。接下来想找一下属性加密在车联网中论文看一下。
