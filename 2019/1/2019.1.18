@@ -1,6 +1,6 @@
 今日工作：
 EAAP: Efficient Anonymous Authentication With Conditional Privacy-Preserving Scheme for Vehicular Ad Hoc Networks
-EPPA方案：
+EAAP方案：
 首先这个方案的提出背景是传统的多播通信的消息源的安全性很难得到保证，基于对称密钥的点到点源身份验证机制方案有一个共同的缺点，由于发送方和接收方之间共享密钥，任何接收方都可以模拟发送方然后伪造数据。更且因为车辆的高速移动性，VANET网络拓扑结构限制了车辆之间的通信时间。所以需要一种具有易撤销性和低计算成本等特性的有效匿名身份验证方案。
 （1）方案提出了一种有效的匿名认证方案，以避免恶意车辆进入VANET；
 （2）提供一种有条件的跟踪机制，用于跟踪滥用VANET的车辆或路边单位
