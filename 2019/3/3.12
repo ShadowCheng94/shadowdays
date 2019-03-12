@@ -1,0 +1,10 @@
+今日工作：
+1.论文“Reliable and Secure Vehicular Fog Service Provision”，可靠安全的车辆雾服务提供，是一区的，2019年的。
+Vehicular Fog Service（车辆雾服务）是由Vehicular Fog 提供的。Vehicular Fog 是对停放车辆计算和存储资源的实时集成。
+系统模型主要分为三层：最高层：由TA组成的中心云；中间层：VFs，由RSU和停靠的车辆组成；底层：车辆。VFs的车辆被认为是server-vehicles，访问VFS的车辆是client-vehicles。
+论文的创新点是第一个为客户端车辆提供可靠且安全的VFS机制的提议，这些VFS是由一组动态加入和离开的服务器车辆提供的。论文主要是由两个部分构成，Vehicular Fog 的构建和Vehicular Fog Service（VFS）的访问。
+（1）Vehicular Fog 的构建：实质是RSU和车辆组成的群，RSU作为群管理员，有两个任务：a.生成群公钥和管理群成员；b.管理VFS
+对客户端车辆的服务；涉及群公钥的生成，群成员的离开和加入，群公钥的更新等；
+（2）Vehicular Fog Service（VFS）的访问：这个阶段是client-vehicles向VFS访问的过程；这个访问过程涉及client-vehicles的登陆，访问和注销的过程。
+方案的具体步骤还没有看
+2.和学妹讨论了毕设。
