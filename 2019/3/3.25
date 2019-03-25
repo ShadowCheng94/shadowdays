@@ -1,0 +1,4 @@
+今日工作：
+1.做组会ppt；
+2.晚上上了算法设计课程；
+3.论文“HCPA-GKA: A hash function-based conditional privacy-preserving authentication and group-key agreement scheme for VANETs”看了它的群密钥的生成和更新方式，和“Reliable and Secure Vehicular Fog Service Provision ”的群密钥生成都是基于中国剩余定理，当某个成员的离开或者新成员的加入都需要更新群密钥，后者的更新方式是再经过当前成员数量的模除运算，除法操作的效率很低，当时在这里觉得会不会有更高效的群密钥更新方式。前者的群密钥更新方式不需要那么多次的取余操作，但是两者密钥更新的效率高低我也不是能明白。
