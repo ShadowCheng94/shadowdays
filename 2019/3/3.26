@@ -1,0 +1,5 @@
+今日工作：
+论文“ABAKA: An Anonymous Batch Authenticated and Key Agreement Scheme for Value-Added Services in Vehicular Ad Hoc Networks”
+SPs（服务提供商）可以通过安全通道(如传输层安全协议)通过有线或无线连接与rsu连接。SPs提供各种服务，如多媒体流、即时消息和导航服务，此时RSU作为中介将服务转发给车辆。它的特点是使用椭圆曲线密码技术(ECC)同时验证来自不同车辆的多个请求 ，还可以同时协商不同车辆的多个会话密钥。
+区别于论文“Reliable and Secure Vehicular Fog Service Provision ”，当C_OBU在已经与S_OBU建立通信，请求多个服务，此时S_OBU对它的请求服务的处理方式。
+如果对每次的服务记录，并且按照服务记录给予一定的激励，积分兑换或者是参考一个竞价方式，每次的服务，由服务车辆自己给出自己能够提供服务的价格，然后由群管理员来选择服务车辆提供服务。
