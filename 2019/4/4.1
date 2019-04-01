@@ -1,0 +1,9 @@
+今日工作：
+论文“PA-CRT: Chinese Remainder Theorem Based Conditional Privacy-preserving Authentication  Scheme in Vehicular Ad-hoc Networks”是张静师姐发在TDSC上的，基于中国剩余定理(CRT)的条件隐私保护认证方案。这篇论文是根据2016年“Dual Authentication and Key Management Techniques for Secure Data Transmission in Vehicular Ad Hoc Networks”中群密钥的生成和更新的这一节改的。中国剩余定理我们用到的都是在群密钥的生成，双重认证的这篇论文，在群发生动态变化时，更新群密钥只需要简单的加减和一个模除操作。师姐的这篇基于中国剩余定理隐私认证签名方案被证明在随机oracle下是安全的。
+创新点：1.基于中国剩余定理构造的方案，不需要预先将主私钥预先存储在TPD中，消除了系统私钥长期存储TPD的隐患，这里的TPD是现实的，CRT的使用降低了计算的复杂程度；
+2.解决了侧信道攻击时的泄露问题，这个地方还没有看出；
+3.一直以来师姐不会使用双线性配对和映射到点的哈希操作；
+
+方案的实现，domain key 代替 group key,只是换了称呼而已，生成过程和双重认证的生成方法一样；假名生成过程，沿袭了双重认证的指纹认证，假名的构造方法是何老师的那个方法；签名的验证阶段，分为单个消息和批验证，其中批验证一如既往的都会用到小指数检测；domain key更新的过程，以往我们只是考虑一个车辆的加入或离开，师姐提出批加入和批离开，但是更新的方法是一样的，都只是加减和一个模除操作；
+安全性分析的地方和16年的分析对比还是很多都是一样的。
+我自己的理解是可能是还没有基于中国剩余定理的隐私认证方案，这句话我没有去调研，所以方案足够新颖。下面再仔细看一下。
