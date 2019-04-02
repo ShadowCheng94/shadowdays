@@ -1,0 +1,6 @@
+今日工作：
+论文“PA-CRT: Chinese Remainder Theorem Based Conditional Privacy-preserving Authentication  Scheme in Vehicular Ad-hoc Networks”是2014年“Chinese remainder Theorem based centralised group key management for secure multicast communication”和2016年“Dual Authentication and Key Management Techniques for Secure Data Transmission in Vehicular Ad Hoc Networks”的融合。
+首先，从整体上去这样理解这篇论文的思想，以一个domain（群）来说，TA来为这个domain生成一个群公钥，方法是中国剩余定理，先不考虑domain内车辆的通信。domain 秘钥的更新，batch join 和batch leave，这三个地方是和14年的这篇论文是一样的；
+其次，群内车辆的通信，包括假名的生成和消息的签名以及验证。假名生成之前，Fingerprint身份认证是借用16年的双重身份，（Fingerprint的使用是为了更精确的追踪），假名的生成是经典的分成两部分假名。在消息签名的过程，只是用到了domain 秘钥生成签名。消息的验证和普通的消息验证是一样的，单个消息验证和批验证都被考虑。
+最后，不考虑理想的TPD的使用，防止其妥协，系统的私钥不会存储在TPD中，消除了长期存储的隐患。安全性的分析的地方，在对群的前向安全性和后向安全性的分析和14年的是一样的。
+所以还是觉得它的创新点就是是基于CRT签名的方案，比较新。
