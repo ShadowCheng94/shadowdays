@@ -1,0 +1,4 @@
+今日工作：
+论文“Secure Certificateless Authentication and Road Message  Dissemination Protocol in VANETs”
+学习一个机制：道路消息优先管理和传播机制。现实中，一个RSU同时接收到多个消息。不同的车辆用户在遇到事故的时候会报告同样的消息给RSU，RSU会为消息M分配一个广播优先级。这个优先级的算法是，假如车辆1和车辆2同时将消息M报告给RSU，广播优先级=1/2(车辆1的优先级+车辆2的优先级)，可能不止车辆1,2报告消息M，但是这个广播优先级就代表了所有车辆广播这个消息的平均值。车辆的优先级将会决定消息广播的优先级，RSU会根据消息广播的优先级进行排序广播。
+这篇论文发的不是很好，是Wireless Communications and Mobile Computing上的，2018年的。我不知道这种求消息广播优先级的方法的依据。还没有看结束，下面还有优先级管理和评估，接下来看明白一下。
