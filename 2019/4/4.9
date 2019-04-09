@@ -1,0 +1,9 @@
+今日工作
+论文“Computationally efficient privacy preserving anonymous mutual and batch authentication schemes for vehicular ad hoc networks”发在2018年Future Generation Computer Systems上的。
+
+论文的创新点：
+1.提出了一种基于计算效率的匿名互认证方案
+2.提出了一种条件跟踪机制，TA通过该机制跟踪行为不端的车辆或滥用VANET的rsu
+3.提出了一种高效的批量认证方案，可以同时对更多车辆或消息进行匿名认证，大大减轻了认证负担
+主要看的是第一个方法，匿名相互认证的地方。因为“Reliable and Secure Vehicular Fog Service Provision ”中有俩个地方是需要用到相互认证，首先是RSU对客户端车辆的身份认证没有达到匿名性；其次是客户端车辆对服务端车辆的认证没有达到匿名性。
+上面的这篇论文，当车辆进入RSU区域时，在发出安全相关信息前，应由RSU以匿名方式进行身份验证。另一方面，车辆在以匿名方式接收来自其他车辆的消息之前，应该对它们进行身份验证。所以看了看这个实现匿名的方法
