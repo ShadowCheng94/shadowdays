@@ -3,4 +3,4 @@
 2.学习论文“A privacy-preserving sensory data sharing scheme in Internet of Vehicles”2019年，发表在Future Generation Computer Systems上。
 
 论文的主要思路是，车辆作为数据的拥有者上传数据报告给RSU，RSU作为报告的聚集器上传到交通局验证聚合报告的正确性。同时车辆也作为数据的查询者，RSU将查询报告返回给它。
-涉及的密码技术有同态加密和中国剩余定理。这里还没有弄明白使用它们的目的，打算接下来细看。
+涉及的密码技术有同态加密和中国剩余定理。这里还没有弄明白使用它们的目的，打算接下来看一看。
