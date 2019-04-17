@@ -1,0 +1,8 @@
+
+今日工作：
+1.上午数据挖掘课程
+2.论文2017“A Privacy-Preserving Vehicular  Crowdsensing-Based Road Surface Condition  Monitoring System Using Fog Computing”和论文2019“Privacy-Preserving Cloud-Based Road Condition Monitoring With Source Authentication in VANETs”，都是对道路状况监测报告的这样的环境下。
+17年论文在雾计算的背景下，将RSU看做雾节点，道路监测的上传报告交给雾节点处理，RSU仅将处理的结果告诉云，这里区别于19年的将报告密文交给云服务器处理；
+17年论文的密码学技术用的是无证书签密技术，签密技术的实现是在一个逻辑步骤内实现加密和签名，但是这里还没有明白使用它的优势，这点也是区别于19年的；
+17年论文RSU作为聚合器将所有的报告密文聚合作统一的处理，提高了处理的效率；
+具体的还没有看完。
