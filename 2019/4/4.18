@@ -1,0 +1,8 @@
+今日工作：
+
+论文2017“A Privacy-Preserving Vehicular  Crowdsensing-Based Road Surface Condition  Monitoring System Using Fog Computing”和论文2019“Privacy-Preserving Cloud-Based Road Condition Monitoring With Source Authentication in VANETs”
+17年的这篇论文在道路状况报告上传的过程并没有很复杂。简单的思想移动传感器（这里可以是车辆或者移动装置）对道路事件报道，首先对这个报道作签密（这里一般来说加密和签名一同使用会增加成本），尽可能少的使用双线对降低成本。RSU这里充当雾节点，会对这些报告的密文作一个聚合和批验证。在验证报告使有效后，RSU进行解签密。
+在报告解密之后，它就没有了后续，比如广播通知。
+模型中的实体云的作用是RSU解密报告后将结果给了云。
+19年的这篇论文，模型上RA的作用分布化，实体RA帮助云监控实时的道路状况。道路状况的报告以密文的形式发给云，密文只能由RA解密，这个地方区分于17年的由边缘对报告的处理。并且增加了道路状况的分类，由于很多的车辆会报告相同的道路状况，这里就要求云有能力将相同的道路报告在不解密的情况下区分。
+两篇论文，19年觉得是17年的细化。
