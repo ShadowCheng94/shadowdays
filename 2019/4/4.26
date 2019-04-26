@@ -1,0 +1,4 @@
+今日工作：
+论文“Chameleon Hashing for Secure and Privacy-Preserving Vehicular Communications”是2014年的一篇论文，之前看的“SRPV: A Scalable Revocation Scheme for Pseudonyms-based Vehicular Ad Hoc Networks”利用Chameleon Hashing来生成大量假名，利用设置的后门来可扩展的撤销大量签名。 
+Chameleon  签名的特点是非交互性，不和目标接收者交互生成签名。与之前的不可否认签名一样，这里是不是可以理解不可否认认证也是可以用在车联网下。Chameleon签名不仅满足通常的数字签名所具有的不可否认性,而且还满足所谓的不可传递性,即签名的接收者不能向别人证明签名的有效性.明显的认证的效率提高，因为它的非交互性。它满足不可传递性和不可否认性。
+这篇论文提出了一种基于EC chameleon hashing新的具有权限可追溯性的隐私保护认证协议，取得了V2V和V2R的匿名身份认证。方案设计中会生成一个变色龙值，因为是基于椭圆曲线离散对数困难问题的假设，因为无法获知变色龙哈希值所以无法计算碰撞，就不能解决问题，但是具体的也不是懂。
