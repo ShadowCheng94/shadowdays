@@ -1,0 +1,3 @@
+今日工作：
+看的论文依然是“Privacy-Preserving Traffic Monitoring with False Report Filtering via Fog-assisted Vehicular Crowdsensing”，短群签名三个主要的技术，短群签名
+报告是借助2004年的短群签名，理解了这种方式的加密的过程；另一个隐私保护的范围查询，关于二叉树的构建原理还是没有懂，只知道树的每个节点表示的是一个交通报告，并且存储于布隆姆过滤器中这俩天准备再看看
