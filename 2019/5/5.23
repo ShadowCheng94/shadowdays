@@ -1,0 +1,6 @@
+今日工作：
+今天学习的内容，回顾论文“Privacy-Preserving Traffic Monitoring with False Report Filtering via Fog-assisted Vehicular Crowdsensing”中的基于WiFi握手协议的临近图的构建方法及RSU在图中随机游走根据信任值监测恶意车辆的内容；
+回顾论文“Reliable and Secure Vehicular Fog Service Provision”，思考一开始的车辆雾的构建的必要性，以RSU为群管理员的群在这里只是一个区域的问题，然后便于rsu分配一个服务车辆给客户端，这里如果不去考虑构建这个群；
+回顾论文“sRPV：A scalable revocation scheme for pseudonym based vehicle ad hoc networks”中的multi signature，这个技术在很多的地方可以用到，比如在报告一个恶意车辆或者报告一个恶意交通事件的时候，多个车辆的报告比单个车辆的报告增加可信度；
+找了一个新论文“Security and privacy preservation in fog-based crowd sensing on the
+internet of vehicles”一区，只是看了它的模型，它的模型是将雾层分层，上层是相当于我们所说的RSU，下层是公交车节点，这里认为公交车比一般的车辆的计算和通信能力好，这篇论文也是关于数据的收集和上传的，没有细看，只是看了看模型，觉得有借鉴之处。
