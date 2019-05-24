@@ -1,0 +1,3 @@
+今日工作：
+今天学习的内容是论文2019“Privacy-Preserving Cloud-Based Road Condition Monitoring With Source Authentication in VANETs”，看的地方是WiFi
+挑战握手协议，相邻的车辆在广播信标消息后构建一个邻近图，这个邻近图的构建是为了过滤错误报告，因为可以认为一个诚实结点连接的前后结点都是诚实的，同时RSU在这个邻近图上游走，会监测到恶意车辆，这就达到了过滤的目的。而我想的是，利用构建邻近图的方法构建群，和之前的服务的那篇结合，先是这样，并且考虑恶意车辆存在的情况。
