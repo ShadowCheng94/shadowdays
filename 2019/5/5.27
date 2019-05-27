@@ -1,0 +1,2 @@
+今日工作：
+这两天看了一篇论文“Towards secure and privacy preserving collision avoidance system in 5G fog based Internet of Vehicles”，Future Generation Computer Systems2019年一区的，这个论文和王梦当时的第一个想法很像的，是一个碰撞避免系统，但他的方案很简单，想法创新，加上5G和fog的环境，论文发到一区。它用的是无证书聚合签密，车辆上有一个速度传感器，这个传感器可以感知速度有没有超速（这篇论文针对的是超速违规报告），监测到就会生成一个报告，传播给聚合功能的雾装置并且验证这个报告，报告会被上传到云上。若检测到违规的报告，雾装置会广播一个速度警告。这是这个方案的整个流程，没有安全性的证明，只是理论的分析。整体的方案并不复杂，整体看下来没有什么难懂的地方。
