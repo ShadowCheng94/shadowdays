@@ -1,0 +1,2 @@
+今日工作：
+论文“Towards secure and privacy preserving collision avoidance system in 5G fog based Internet of Vehicles”和“A Privacy-Preserving Vehicle crowdsensing-based road surface condition monitoring system using fog computing"两篇论文的共同的地方是都是用的无证书聚合签密技术，前者是利用传感器对车辆速度的一个监测，后者也是利用传感器对道路表面的路况做的报告监测，方案的实现都是在一个无证书聚合签密的设计框架下实现的，是不是可以理解想到一个点，也套用这个框架，再加上5G和雾的结合，这样也可以是个创新。两篇的方案简单容易理解，并不是复杂，只是应用的背景和模型上区别，这是今天学习的内容。
