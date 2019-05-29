@@ -1,0 +1,3 @@
+今日工作：
+论文“Reliable and Secure Vehicular Fog Service Provision”和论文“Privacy-Preserving Traffic Monitoring with False Report Filtering via Fog-assisted Vehicular Crowdsensing”
+首先第一个方面，考虑第二篇论文中提到的车辆之间的握手交互来构建群，恶意车辆很难成功的通过这个握手协议的挑战，且第一篇论文中没有实现群秘钥的前向安全性；第二个方面，第一篇论文没有考虑恶意车辆存在的情况，这里考虑rsu可以监测到恶意车辆，在群成员中的每次游走来监测恶意车辆，且赋予每个车辆一个信任值，每次的游走之后将节点的信任值低于预设的信任值的车辆可以认为它提供的服务是错误的，这地方可以实现一个撤销；第三个方面，rsu监测到恶意车辆是概率性的事件，所以征集周围车辆对这个恶意车辆的撤销请求签名，来增加rsu监测的概率性。主要是想按照第一篇的论文来考虑。
