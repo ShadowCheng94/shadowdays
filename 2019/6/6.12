@@ -1,0 +1,3 @@
+今日工作：
+1.复习组合数学和算法设计；
+2.今天看了一篇论文“Efficient Deduplicated Reporting in Fog-Assisted Vehicular Crowdsensing”，是一篇会议，2018年的，没有去查是不是CCF的会议，它里面的去重复数据的方法，我觉得可以用。它这个技术在论文里是这样的意思，某个组织下达一个任务，这个区域内的车辆感知数据上传报告，这个区域内的报告会有大量的重复性，RSU会利用同态技术在不需要知道密文的情况下来检测重复报告，然后删除。还要一篇“Secure and Privacy-Preserving Report De-duplication in the Fog-Based Vehicular Crowdsensing System”准备明天看看。
