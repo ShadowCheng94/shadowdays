@@ -1,0 +1,3 @@
+今日工作：
+1.复习组合数学和算法设计；
+今天看的论文是“Secure and Privacy-Preserving Report De-duplication in the Fog-Based Vehicular Crowdsensing System”,主要看的是如何去重复报告的地方，发现这个主要是利用一个参数找到相同的报告，然后将相同的报告进行一个聚合。
