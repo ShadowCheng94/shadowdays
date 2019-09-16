@@ -1,0 +1,4 @@
+今日工作：
+1.在做没做完的ppt；
+2.在做PPT的过程中，原本用bloom filter来对车辆上传报告的一个检测，但是bloom filter需要存储大量的数据，又由于它不支持删除操作，所以今天在做PPT的时候给它换成了counting bloom filter，和bloom filter有相同的功能并且可以支持删除操作。
+明天是继续做没完成的ppt。
