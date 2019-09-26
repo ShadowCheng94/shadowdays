@@ -1,0 +1,4 @@
+今日工作：
+读论文“Providing Task Allocation and Secure Deduplication for Mobile Crowdsensing via Fog Computing”，中重复数据删除的地方，对上传的相同数据有没有实现删除很困惑，首先当检测到重复数据存在的时候，
+，对相同数据的签名作了一个聚合，然后只保留一个上传报告的副本，其它的都删除。如果从rsu将报告上传到云服务器这个地方，可以理解的确实现了去重的功能，因为RSU只上传了众多重复数据的一个副本而已。但是如果站在RSU的角度，数据上传到
+RSU上，存在的重复数据始终还是在rsu上。
