@@ -1,0 +1,3 @@
+今日工作：
+读了俩篇论文access“An Efficient Privacy-Preserving Mutual Authentication Scheme for Secure V2V Communication in Vehicular Ad Hoc Network”和“Conditional privacy-preserving authentication and key agreement
+scheme for roaming services in VANETs”，都是在车联网中关于俩方秘钥协商的论文，协商的过程都是对称的过程，公式很多，觉得在V2V的通信环境下为了建立安全通信去协商这样的一个会话秘钥很麻烦，读完之后思路不够清晰，感觉对公式做改变又需要好的密码学基础，不知道去怎么应用，明天继续去研究一下关于密钥协商的应用
