@@ -1,0 +1,4 @@
+今日工作：
+看了论文17年tii上的“Privacy-Preserving Authentication and Key Agreement Protocols for D2D Group Communications”以及18年ccf c会“An Efficient Anonymous Authentication Scheme for
+Internet of Vehicles”，第一篇提到俩个关于秘钥协商的协议，指出基于HAMC的协议不能抵挡恶意用户发起的内部攻击，后用基于身份的协议对前面的协议改进。第二篇会议RSU和车辆有个密钥协商的过程，在认证的过程也是用了消息认证码，
+所以在这个地方我想看明白第一篇文章中是怎么改进这个地方的；并且第二篇论文的签名做不到聚合，所以想看看怎么把签名换掉。明天继续看相关论文。
