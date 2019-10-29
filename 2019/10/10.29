@@ -1,0 +1,3 @@
+今日工作：
+2017年 IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS“Efficient Privacy-Preserving Dual Authentication and Key Agreement Scheme for Secure V2V Communications in an IoV Paradigm”
+特点：双重认证：身份认证和对过去行为信誉评估认证结合阻止未授权用户的访问；会话秘钥的协商是车与车之间的协商，会话秘钥的建立是在双方都不知道彼此身份的基础上建立；利用双性线对计算加密秘钥解决密钥管理的问题。这几点特点可以深入学习一下，。
