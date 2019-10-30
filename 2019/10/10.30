@@ -1,0 +1,3 @@
+今日工作：
+继续看了论文2018年 IEEE network “Integrated Authentication and Key Agreement Framework for Vehicular Cloud Computing”，用户 车辆云 传统云之间的会话协商。传统云的作用相当于TA，但同时也和车辆云的作用一样提供服务，多个车辆云相当于多个服务提供商，用户和车辆云之间协商一个会话秘钥继续下面的服务，
+但是若考虑用户和车辆云在一个传统云注册然后相互认证可行，如果有多个传统云，用户和车辆云在不同的传统云注册，需要用户注册多次，这个问题需要考虑解决。明天再看看这篇论文。
