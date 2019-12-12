@@ -1,0 +1,3 @@
+今日工作：
+看论文的“E-AUA: An Efficient Anonymous User Authentication Protocol for Mobile IoT”方案细节部分，不需要注册中心参与的两方认证，都是对对方的私钥和身份的一个认证，
+有借鉴的地方是两方认证只需要一个轮回，缩短了协商的时间。
