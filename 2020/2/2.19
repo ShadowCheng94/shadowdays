@@ -1,0 +1,6 @@
+今日工作：
+1.完成剩余参考文献的插入；
+2.补充在安全性分析中的对相应攻击的描述；
+3.在看论文"A robust and efficient password-based conditional privacy preserving authentication and group-key agreement protocol for VANETs",这篇论文是在fgcs上的，论文
+主要是提出了这样一个轻量的群密钥协商协议，因为只使用哈希函数的缘故，所以在计算代价上是很大的优势的，看了协议的整个过程，如果在群密钥的建立这阶段来看觉得并不是说代价很小的，因为每一辆车的加入或离开，群密钥都在做更新，都需要ta来做相应的乘法或除法来更新群密钥。。
+实验的比较只是对认证阶段做对比，相比较下，只使用哈希的该协议是在代价上很小的。
