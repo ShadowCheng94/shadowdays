@@ -1,0 +1,4 @@
+今日工作：
+1.阅读论文“Cloud-Assisted Safety Message Dissemination in VANET–Cellular Heterogeneous Wireless Network”的方案部分，主要是阅读两个步骤，一是
+ 基于云的移动网关选择方法 和 分布式方法选择前向代理和后向代理，论文偏应用，给出的方法是数学以及物理分析，没有涉及到密码学的算法，所以针对两种方法可以学习或者应用。
+ 2.在看张晓宇tifs的论文实验部分，以及别的方案的实验部分，想去了解别人的实验以及不同期刊上论文的实验的不同。
