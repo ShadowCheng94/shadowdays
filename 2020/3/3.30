@@ -1,0 +1,4 @@
+今日工作：
+1.学习自动化协议分析工具“AVISPA”，https://wenku.baidu.com/view/ba37b142be1e650e52ea993d.html给的挺详细的一个介绍。觉得还是挺麻烦的，需要将安全协议进行编码。
+2.学习论文2019 iot“AKM-IoV: Authenticated Key Management Protocol in Fog Computing-Based Internet of Vehicles Deployment”，同样是和何老师的做对比，同样都是引入雾计算，但是
+因为一个使用哈希一个使用椭圆曲线在效率上是有差别的。现在看论文会有点疑惑，有的论文实验会包括网络实验，但有的没有只做了密码学实验，是不是有了网络实验就是会比没有的好呢。在某些期刊上看不出来这样的差异。
