@@ -1,0 +1,4 @@
+今日工作：
+前俩天看的论文：“A certificateless one-way group key agreement protocol for end-to-end email encryption”，理解one-way group key agreement protocol
+中的one way的意思，说目前存在的群密钥协商的协议需要多个轮回的消息交换，但是这个并不合适于这样的邮件系统，因为参与者不是都在线的。所以引入一个来回消息交换，意思是发件人只需要使用
+特殊的一个群秘钥加密邮件并且附带一个子秘钥，这个子秘钥是给每个接收者的，当接收者接收到邮件时根据自己的私钥，以及子秘钥，以及发件人的公钥就可以解密邮件。
