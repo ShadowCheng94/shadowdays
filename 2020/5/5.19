@@ -1,0 +1,5 @@
+今日工作：
+1.陆续找了之前看的几篇文章，比如“An Efficient Authentication and Secure Vehicle-to-Vehicle Communications in an IoV”比如“TCALAS: Temporal Credential-Based Anonymous
+Lightweight Authentication Scheme for Internet of Drones Environment”在看安全性分析的部分，因为想重写关于the Ephemeral Secret Leakage (ESL) attack所以在看别人写的部分。
+2.因为前面看的文章是关于群秘钥协商的，所以也找了一篇fgcs的关于群秘钥协商的论文，但是晚上的时候依旧看的是这俩天日志写的那篇会议的方案中的协商部分，觉得这个方案挺困惑的，不知道是自己没明白还是它的字母用的问题
+理解的还是有点困难。很混乱的公式标识但又同时觉得这种群内秘钥协商的方法很简便。
