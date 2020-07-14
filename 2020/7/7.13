@@ -1,0 +1,3 @@
+今日工作：
+今天的主要任务是看论文2020年tifs“BAS-VAS: A Novel Secure Protocol for Value Added Service Delivery to Mobile Devices”的方案部分，主要是对创新点第二点有些没明白，首先是在传输的过程中
+我们确保移动用户端的真实身份是秘密的可以理解这个地方，但是说不需要生成多个这样的临时身份作为通信的时候的身份没有理解这个地方的含义。还需要再看看这个用法。
